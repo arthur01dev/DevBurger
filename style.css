@@ -331,18 +331,18 @@ footer {
     transition: 0.7s;
 }
 
-footer:hover{
+footer:hover {
     color: #ffc506;
 }
 
 /*  ScrollBar  */
 
-::-webkit-scrollbar{
+::-webkit-scrollbar {
     width: 10px;
     background-color: #585858;
 }
 
-::-webkit-scrollbar-thumb{
+::-webkit-scrollbar-thumb {
     width: 10px;
     background-color: #ffc506;
     border-radius: 10px;
@@ -366,6 +366,10 @@ footer:hover{
     .conteudo-principal h1 {
         text-align: center;
     }
+
+    ::-webkit-scrollbar {
+        display: none;
+    }
 }
 
 @media (max-width: 992px) {
@@ -375,6 +379,10 @@ footer:hover{
 
     .conteudo-principal h1 {
         text-align: center;
+    }
+
+    ::-webkit-scrollbar {
+        display: none;
     }
 }
 
@@ -477,6 +485,9 @@ footer:hover{
         margin: 2rem;
     }
 
+    ::-webkit-scrollbar {
+        display: none;
+    }
 }
 
 @media (max-width: 600px) {
@@ -508,6 +519,10 @@ footer:hover{
     .contato-secao {
         width: 300px;
     }
+
+    ::-webkit-scrollbar {
+        display: none;
+    }
 }
 
 @media (max-width: 500px) {
@@ -534,17 +549,28 @@ footer:hover{
         font-size: 2rem;
         text-align: center;
     }
+
+    ::-webkit-scrollbar {
+        display: none;
+    }
+}
+
+@media (max-width: 483px) {
+    .sobre-nos img {
+        width: 230px;
+        height: auto;
+    }
 }
 
 @media (max-width: 395px) {
     .sobre-nos img {
-        width: 250px;
+        width: 230px;
         height: auto;
     }
 
     .contentsobre p {
         text-align: center;
-        width: 250px;
+        width: 230px;
     }
 
     .itens-cardapio {
@@ -578,4 +604,5 @@ footer:hover{
         width: 100%;
         font-size: 1.5rem;
     }
+
 }
